@@ -1,1 +1,12 @@
-data = ""
+TOKEN_SUBTYPE_OPERATORS = {
+    "=": "SET"
+}
+
+TOKEN_SUBTYPE_KEYWORDS = {
+    "int": "KEYWORD_INT"
+}
+
+TOKEN_TYPE_SEMICOLON = "SCOL"
+TOKEN_TYPE_INT = "INT"
+
+data = "int x = 10;"
